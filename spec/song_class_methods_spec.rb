@@ -1,4 +1,4 @@
-require 'spec_helper'
+recrrequire 'spec_helper'
 require 'pry'
 
 describe "Song Class Methods" do
@@ -12,7 +12,7 @@ describe "Song Class Methods" do
 
   describe '.new_by_name' do
     it 'instantiates a song with a name property' do
-      song = Song.new_by_name("Blank Space")
+      song = Song.new_by_name("Blank Space"
 
       expect(song.name).to eq("Blank Space")
     end
